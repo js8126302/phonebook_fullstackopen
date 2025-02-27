@@ -8,7 +8,7 @@ app.use(morgan('tiny'))
 app.use(express.json())
 dotenv.config()
 app.use(cors())
-app.use(express.static('public'));
+app.use(express.static('dist'));
 
 morgan.token('body', (request, response) => JSON.stringify(request.body))
 
