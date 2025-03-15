@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
 const express = require('express')
 const morgan = require('morgan')
 const app = express()
